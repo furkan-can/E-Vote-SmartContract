@@ -1,0 +1,72 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.winner-message {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #007bff;
+}
+
+.vote-bg{
+  background-image: url("../assets/vote-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+
+.win-bg{
+  background-image: url("../assets/finish-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
+
+
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
